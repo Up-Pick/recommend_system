@@ -1,0 +1,9 @@
+package uppick.uppickrecommend.recommend.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import uppick.uppickrecommend.recommend.entity.Auction;
+
+public interface AuctionRepository extends JpaRepository<Auction, Long> {
+
+}
